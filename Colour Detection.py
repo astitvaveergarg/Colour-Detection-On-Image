@@ -22,11 +22,11 @@ def getColourName(R, G, B):
     return colorname
 
 
-image=cv2.imread("D:\GIT\Colour-Detection-On-Image\colorpic.jpg")
+image=cv2.imread(r"a.jpg")
 
 r = g = b = xpos = ypos = 0
 
-Colors=pd.read_csv('D:\GIT\Colour-Detection-On-Image\colors.csv')
+Colors=pd.read_csv('colors.csv')
 
 cv2.namedWindow('Image')
 cv2.imshow("Image", image)
