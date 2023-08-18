@@ -22,7 +22,9 @@ def getColourName(R, G, B):
     return colorname
 
 
-image=cv2.imread(r"a.jpg")
+path_to_img = str(input("Enter the path to the image: "))
+
+image=cv2.imread(path_to_img)
 
 r = g = b = xpos = ypos = 0
 
